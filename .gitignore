@@ -1,0 +1,27 @@
+# Dependencies and build output
+node_modules/
+**/node_modules/
+client/dist/
+server/.vercel/
+client/.vercel/
+
+# Secrets and local environment
+.env
+.env.*
+!.env.example
+**/.env
+**/.env.*
+!**/.env.example
+
+# Test artifacts and browser sessions
+**/tests/.auth/
+**/test-results/
+**/playwright-report/
+**/coverage/
+
+# OS / editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.log
